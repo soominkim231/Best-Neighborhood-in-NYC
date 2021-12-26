@@ -8,7 +8,9 @@ New York City is the most populated city in the United States. It is also one of
 More specifically, the City is home to more than 100,000 ethnic Koreans, which contributes to the New York metropolitan area containing the second-largest population of Koreans outside of Korea. Given its dense Korean population and a growing interest in K-food business worldwide, there are ample opportunities to expand Korean restaurant business in New York City.
 
 ## Aim
-This project aims to build machine learning models to identify meaningful clusters by the density of Korean restaurants in NYC. Then, I will recommend the best location to open a Korean restaurant, based on areas with relatively smaller density of Korean restaurants and their proximity to the city center.
+This project aims to use K-Means Clustering to cluster neighborhoods based on similar mean frequency of Korean restaurants, then recommend the best location (neighborhood) to open a Korean restaurant using the following criteria:
+- small density of Korean restaurants (not already too crowded)
+- proximity to the city center
 
 ## Target Audience
 This project will provide great insight for anyone - entrepreneurs, business owners, investors - who are looking to start or expand their Korean restaurant business in New York City.
